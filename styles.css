@@ -1,6 +1,6 @@
 body{
   font-family: 'Courier New', Courier, monospace;
-  background-color: #18c009;
+  background-color: goldenrod;
 
   
 }
@@ -42,6 +42,7 @@ body{
   margin: auto;
   
   background: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
   box-shadow: 10px 10px 10px rgb(19, 18, 19);
  
 }
