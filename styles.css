@@ -1,0 +1,70 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #18c009;
+
+  
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.logo{
+
+ max-width: 300px;
+
+ 
+}
+@media (max-width: 300px) {
+  .logo{
+    width: 75%;
+  }
+}
+
+.synthweb,.stealthAx{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.title,.total-balance{
+  font-weight: 900;
+  font-size: 20px;
+  color: #DA0C81;
+}
+
+.container,.balance{
+  
+  max-width: 800px;
+  margin: auto;
+  
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 10px 10px 10px rgb(19, 18, 19);
+ 
+}
+
+.cart-title,.balance-title{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+
+
+}
+
+.welcome{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 22px;
+  color: #9c025a;
+}
+
+
+.total-balance{
+  color: green;
+
+}
