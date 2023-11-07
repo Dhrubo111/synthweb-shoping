@@ -66,7 +66,7 @@ body{
 
 
 .total-balance{
-  color: green;
+  color: #f5098f;
   font-size: 31px;
 
 }
@@ -148,6 +148,8 @@ ul{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 
@@ -155,4 +157,10 @@ ul{
 
   display: flex;
   justify-content: center;
+}
+
+.name,.price{
+  font-weight: 900;
+  font-size: 20px;
+
 }
